@@ -12,29 +12,29 @@ body {
     border: none;
 }
 
-.top-card {
+/* .top-card {
     background-color: transparent;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
     padding: 5px 20px;
-}
+} */
 
-.about-navigator-row {
+/* .about-navigator-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
     margin: 0 20px;
-}
-#top-title {
+} */
+/* #top-title {
     font-weight: bold;
-}
+} */
 
-#navigate .btn {
+/* #navigate .btn {
     margin-left: 10px;
     color: #F5F5F5;
     background-color: #00A8A8;
     border: none;
-}
+} */
 
 
 .circle-image {
@@ -61,6 +61,6 @@ th, td {
     border-right: 1px solid #ddd;
 }
 
-.location {
+/* .location {
     border-right: none;
-}
+} */
