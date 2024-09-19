@@ -12,6 +12,14 @@ body {
     border: none;
 }
 
+#hero a {
+    color: #0a192f;
+}
+
+#projects .container {
+    color: #0a192f;
+}
+
 /* .top-card {
     background-color: transparent;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
@@ -39,14 +47,14 @@ body {
 
 .circle-image {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     border-radius: 50%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-table {
+/* table {
     width: 50%;
     max-width: 600%;
     border-collapse: collapse;
@@ -59,7 +67,7 @@ th, td {
     padding-top: 0px;
     text-align: left;
     border-right: 1px solid #ddd;
-}
+} */
 
 /* .location {
     border-right: none;
