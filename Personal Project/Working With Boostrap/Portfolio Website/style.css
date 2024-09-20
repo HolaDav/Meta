@@ -6,11 +6,15 @@ body {
     box-sizing: border-box;
 }
 
-.body .btn {
+nav {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+/* .body .btn {
     background-color: #00A8A8;
     color: #F5F5F5;
     border: none;
-}
+} */
 
 #hero a {
     color: #0a192f;
@@ -20,19 +24,14 @@ body {
     color: #0a192f;
 }
 
-/* .top-card {
-    background-color: transparent;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-    padding: 5px 20px;
-} */
 
-/* .about-navigator-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: transparent;
-    margin: 0 20px;
-} */
+/* #navbarNav { */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* margin: 0 20px; */
+/* } */
+
 /* #top-title {
     font-weight: bold;
 } */
