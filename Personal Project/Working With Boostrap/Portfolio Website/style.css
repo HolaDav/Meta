@@ -10,19 +10,29 @@ nav {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
+#hero .btn {
+    color: #0a192f;
+}
+
+.social-icons a {
+    color: #F5F5F5;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#projects .container {
+    color: #0a192f;
+}
+
+
+
 /* .body .btn {
     background-color: #00A8A8;
     color: #F5F5F5;
     border: none;
 } */
 
-#hero a {
-    color: #0a192f;
-}
 
-#projects .container {
-    color: #0a192f;
-}
 
 
 /* #navbarNav { */
