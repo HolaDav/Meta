@@ -13,7 +13,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">About me</a>
+            <a class="navbar-brand" style="font-weight: bold;" href="#">About me</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,10 +26,10 @@
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Skills">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Contacts">Contacts</a>
+                        <a class="nav-link" href="#contact">Contacts</a>
                     </li>
                 </ul>
             </div>
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6">
-                <img class="circle-image" src="IMG_6759.jpg" alt="My profile Image">
+                <img class="circle-image" src="resources/IMG_6759.jpg" alt="My profile Image">
             </div>
         </div>
 
@@ -74,41 +74,76 @@
             <div class="row">
                 <!-- Project 1 -->
                 <div class="col-md-4">
-                    <div>
-                        <img src="Stopwatch_1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card">
+                        <img src="resources/Stopwatch_1.jpg" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title">Project 1</h5>
-                            <p>A brief description of the project foes here.</p>
+                            <p>A brief description of the project goes here.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="resources/Screenshot 2024-10-16 190754.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p>A brief description of the project goes here.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- <div class="container">
-        <div class="row body align-items-center" style="height: 100vh;">
-            <div class="col-12 col-lg-6 d-flex flex-column justify-content-center">
-                <p>Hi There!</p>
-                <h1>I am a Developer</h1>
-                <p>I make the complex simple.</p>
-                <div>
-                    <button class="btn">Contact <b>Me</b></button>
-                </div>
-                <table>
-                    <tr>
-                        <th>Email</th>
-                        <th>Phone</th>
-                        <th class="location">Location</th>
-                    </tr>
-                        <td>oladejidavid12@gmail.com</td>
-                        <td>08110852281</td>
-                        <td class="location">Luth</td>
+
+    <!-- Skill Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center">My Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>HTML</h4>
+                    <div class="progress mb-4">
+                        <div class="progress-bar" style="width: 90%;">90%</div>
                     </div>
-                </table>
+                </div>
+                <div class="col-md-4">
+                    <h4>CSS</h4>
+                    <div class="progress mb-4">
+                        <div class="progress-bar" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>JavaScript</h4>
+                    <div class="progress mb-4">
+                        <div class="progress-bar" style="width: 50%;">50%</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>Python</h4>
+                    <div class="progress mb-4">
+                        <div class="progress-bar" style="width: 75%;">75%</div>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-                <img src="IMG_6759.jpg" class="img-fluid circle-image" alt="Profile  Image">
-            </div> -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p class="lead">Feel free to reach out if you want to collaborate or have any questions.</p>
+            <a href="mailto:oladejidavid12@fmail.com" class="btn">Send an Email</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <p>&copy; 2024 David. All Rights Reserved.</p>
+        </div>
+    </footer>
     <script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>

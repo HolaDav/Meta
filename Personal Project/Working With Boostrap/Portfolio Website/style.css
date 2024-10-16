@@ -4,11 +4,18 @@ body {
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: Monterat;
+    line-height: 1.6;
 }
 
 nav {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
+
+/* #hero {
+    background: url('resources/day-26.JPG') no-repeat center center/cover;
+    color: white;
+} */
 
 #hero .btn {
     color: #0a192f;
@@ -22,6 +29,22 @@ nav {
 
 #projects .container {
     color: #0a192f;
+}
+
+#contact .btn {
+    background-color: #00A8E8;
+    color: #F5F5F5;
+}
+
+.progress-bar{
+    background-color: #00A8E8;
+    color: #F5F5F5;
+}
+
+h2{
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 
