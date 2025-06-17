@@ -23,14 +23,14 @@
                         <a class="nav-link active" href="/">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             About
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#About Achievers">About Achievers</a></li>
+                            <li><a class="dropdown-item" href="#about">About Achievers</a></li>
                             <li><a class="dropdown-item" href="#">Our Initiatives</a></li>
                             <li><a class="dropdown-item" href="#">Why Join Achievers?</a></li>
                             <li><a class="dropdown-item" href="#">Testimonials</a></li>
@@ -56,7 +56,7 @@
         <div class="container overlay">
             <div class="row align-items-center" style="height: 100vh;">
                 <div class="col-12">
-                    <h1>Empowering Students. Building Futures.</h1>
+                    <h1>Empowering Radiography Students to Excel</h1>
                     <p class="lead">Tutorials and impact-driven learning for Radiography students.</p>
 
                     <div class="container">
@@ -88,6 +88,64 @@
         </div>
     </section>
 
+    <!-- About Section  -->
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <h3 class="mb-4">About Achievers</h3>
+            <p class="lead mb-5">
+                <b>Achievers</b> is a student-led initiative foucsed on empowering Radiography students through mentorship, tutorial sessions, and outreach programs. We believe in academic excellence, spiritual growth, and community impact.</p>  
+            </p>
+            
+            <!-- Image Slider / Carousel -->
+            <div id="aboutCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>  
+                <!-- Slies -->
+                <div class="carousel-inner rounded shadow">
+                    <div class="carousel-item active">
+                        <img src="resources/hero-image.jpg" alt="Tutorial Class" class="d-block w-100 carousel-img">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tutorial Class</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="resources/susan-q-yin-2JIvboGLeho-unsplash.jpg" alt="Study Resources" class="d-block w-100 carousel-img">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Study Resources</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="resources/hero-image.jpg" alt="Mentorship" class="d-block w-100 carousel-img">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Mentorship</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="resources/susan-q-yin-2JIvboGLeho-unsplash.jpg" alt="Academic Events" class="d-block w-100 carousel-img">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Academic Events</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    
     <script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
