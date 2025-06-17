@@ -1,25 +1,5 @@
-/* body {
-    font-family: sans-serif;
+.carousel-img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
 }
-
-#hero {
-    background: url('resources/susan-q-yin-2JIvboGLeho-unsplash.jpg') no-repeat center center/cover;
-    color: white;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-#overlay {
-    background: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
-#hero-content {
-    position: relative;
-    z-index: 1;
-} */
